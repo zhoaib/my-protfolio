@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import img1 from "../../assets/3.png"
 
 const Hero = () => {
@@ -11,8 +10,13 @@ const Hero = () => {
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
                         <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                        <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <Link><button className="btn btn-primary">View Resume</button></Link>
+                        <p className="mb-5">My technical skills include using Programming languages such as JavaScript, HTML, CSS,
+                            XML, and React. I also know about MongoDB, firebase. My daily routine includes practicing
+                            developing a user-friendly UI and a secure website.</p>
+                        <a target='_blank' href="https://drive.google.com/file/d/1xSbXErOV6mFda6fkrxQ4QLhy7o8tQZJy/view?usp=sharing">
+                            <button className="about btn pointer">Resume</button>
+                        </a>
+
                     </div>
                 </div>
             </div>
