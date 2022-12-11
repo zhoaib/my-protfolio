@@ -6,7 +6,7 @@ import music from '../../assets/music.PNG'
 const LetTheMusicPlay = () => {
     return (
         <div className='my-10'>
-            <p className='text-3xl font-bold text-center my-5'>COLOR CANVAS</p>
+            <p className='text-3xl font-bold text-center my-5'>Let The Music Play</p>
             <div className="card card-compact bg-base-100 shadow-xl mx-auto">
                 <div className='grid grid-cols-3 gap-10'>
                     <figure><img src={music} alt="Shoes" /></figure>

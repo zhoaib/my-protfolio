@@ -5,6 +5,7 @@ import Blogs from "../Pages/Blogs/Blogs";
 import ColorCanvas from "../Pages/ColorCanvas/ColorCanvas";
 import Contact from "../Pages/Contact/Contact";
 import Home from "../Pages/Home/Home";
+import KenaKati from "../Pages/KetaKati/KenaKati";
 import LetTheMusicPlay from "../Pages/LetTheMusicPlay/LetTheMusicPlay";
 import Projects from "../Pages/Projects/Projects";
 
@@ -40,6 +41,10 @@ export const router = createBrowserRouter([
             {
                 path: '/music',
                 element: <LetTheMusicPlay></LetTheMusicPlay>
+            },
+            {
+                path: '/kenakati',
+                element: <KenaKati></KenaKati>
             }
 
         ]

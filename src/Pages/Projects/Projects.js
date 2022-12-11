@@ -3,8 +3,10 @@ import color from '../../assets/color.PNG'
 import music from '../../assets/music.PNG'
 import kena from '../../assets/kena.PNG'
 import { Link } from 'react-router-dom';
+import useTitle from '../../hooks/UseTitle';
 
 const Projects = () => {
+    useTitle('Projects')
     return (
         <div>
             <div>
@@ -46,7 +48,7 @@ const Projects = () => {
                         <p>* Admin can delete anyone from the site and no one can delete or report admin</p>
                         <div className="card-actions mx-auto">
                             <button className="btn btn-primary "><a href="https://kena-kati.web.app/">Live Site</a></button>
-                            <Link><button className="btn btn-primary ">View Details</button></Link>
+                            <Link to='/kenakati'><button className="btn btn-primary ">View Details</button></Link>
                         </div>
                     </div>
                 </div>

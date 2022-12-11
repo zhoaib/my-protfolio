@@ -1,8 +1,10 @@
 import React from 'react';
 import cp from '../../assets/cp.PNG'
 import clog from '../../assets/clog.PNG'
+import useTitle from '../../hooks/UseTitle';
 
 const ColorCanvas = () => {
+
     return (
         <div className='my-10'>
             <p className='text-3xl font-bold text-center my-5'>COLOR CANVAS</p>

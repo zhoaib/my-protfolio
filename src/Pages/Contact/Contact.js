@@ -1,7 +1,9 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import useTitle from '../../hooks/UseTitle';
 
 const Contact = () => {
+    useTitle('Contact-Me')
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -15,19 +17,19 @@ const Contact = () => {
             });
     };
     return (
-        <div className='my-20 text-center '>
-            <div className="card  bg-base-100 shadow-xl mx-auto">
+        <div className='my-20 text-center  '>
+            <div className="card  bg-base-100 shadow-xl mx-auto ">
                 <div className="card-body">
                     <p className='text-3xl font-bold'>Contact Me</p>
                     <form ref={form} onSubmit={sendEmail}>
                         <label className='font-bold'>Name</label> <br />
-                        <input type="text" placeholder="Your Name" className="my-3 input input-bordered w-full max-w-xs" name="user_name" /> <br />
+                        <input type="text" placeholder="Your Name" className="my-3 input input-bordered w-1/2" name="user_name" /> <br />
 
                         <label className='font-bold'>Email</label> <br />
-                        <input type="email" placeholder="Your Email" className="my-3 input input-bordered w-full max-w-xs" name="user_email" /> <br />
+                        <input type="email" placeholder="Your Email" className="my-3 input input-bordered w-1/2" name="user_email" /> <br />
                         <label className='font-bold'>Message</label> <br />
-                        <textarea name="message" placeholder="Your Massage" className="my-3 input input-bordered w-full max-w-xs" /> <br />
-                        <input className='about btn pointer' type="submit" value="Send" />
+                        <textarea name="message" placeholder="Your Massage" className="my-3 input input-bordered w-1/2" /> <br />
+                        <input className='btn btn-primary' type="submit" value="Send" />
                     </form>
                 </div>
             </div>
