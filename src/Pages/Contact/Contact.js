@@ -7,7 +7,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_96yitvv', 'template_3y1ohqq', form.current, 'v3PM2Mvk3regp2-Ak')
+        emailjs.sendForm('service_96yitvv', 'template_3y1ohqq', form.current, 'XINurYZvYq0YP3N4M')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -15,7 +15,7 @@ const Contact = () => {
             });
     };
     return (
-        <div className='my-20 '>
+        <div className='my-20 text-center '>
             <div className="card  bg-base-100 shadow-xl mx-auto">
                 <div className="card-body">
                     <p className='text-3xl font-bold'>Contact Me</p>
