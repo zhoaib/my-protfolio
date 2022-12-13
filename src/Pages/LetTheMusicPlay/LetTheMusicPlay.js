@@ -5,7 +5,8 @@ import music from '../../assets/music.PNG'
 
 const LetTheMusicPlay = () => {
     return (
-        <div className='my-10'>
+        <div data-aos="fade-up"
+            data-aos-duration="3000" className='my-10'>
             <p className='text-3xl font-bold text-center my-5'>Let The Music Play</p>
             <div className="card card-compact bg-base-100 shadow-xl mx-auto">
                 <div className='grid grid-cols-3 gap-10'>

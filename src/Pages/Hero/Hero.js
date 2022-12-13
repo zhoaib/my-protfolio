@@ -3,7 +3,8 @@ import img1 from "../../assets/3.png"
 
 const Hero = () => {
     return (
-        <div>
+        <div data-aos="fade-up"
+            data-aos-duration="3000">
             <div className="hero " >
                 <img className='w-1/3' src={img1} alt="" />
                 <div className="hero-overlay bg-opacity-60"></div>

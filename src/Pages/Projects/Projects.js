@@ -13,7 +13,10 @@ const Projects = () => {
                 <h1 className='text-3xl mt-20 text-center'>Projects__</h1>
             </div>
             <div className='my-20 grid lg:grid-cols-3 sm:grid-cols-1 gap-10 '>
-                <div className="card card-compact w-96 bg-base-100 shadow-xl mx-auto">
+                <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="2000" className="card card-compact w-96 bg-base-100 shadow-xl mx-auto">
                     <figure><img src={color} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Color Canvas</h2>
@@ -26,7 +29,10 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-96 bg-base-100 shadow-xl mx-auto">
+                <div data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="2000" className="card card-compact w-96 bg-base-100 shadow-xl mx-auto">
                     <figure><img src={music} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Let the Music Play</h2>
@@ -39,7 +45,10 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-96 bg-base-100 shadow-xl mx-auto">
+                <div data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="2000" className="card card-compact w-96 bg-base-100 shadow-xl mx-auto">
                     <figure><img src={kena} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Kena-Kati</h2>

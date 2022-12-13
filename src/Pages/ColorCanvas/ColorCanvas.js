@@ -1,12 +1,13 @@
 import React from 'react';
 import cp from '../../assets/cp.PNG'
 import clog from '../../assets/clog.PNG'
-import useTitle from '../../hooks/UseTitle';
+
 
 const ColorCanvas = () => {
 
     return (
-        <div className='my-10'>
+        <div data-aos="fade-up"
+            data-aos-duration="3000" className='my-10'>
             <p className='text-3xl font-bold text-center my-5'>COLOR CANVAS</p>
             <div className="card card-compact bg-base-100 shadow-xl mx-auto">
                 <div className='grid grid-cols-2 gap-10'>

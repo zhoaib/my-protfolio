@@ -17,7 +17,8 @@ const Contact = () => {
             });
     };
     return (
-        <div className='my-20 text-center  '>
+        <div data-aos="flip-left"
+            data-aos-duration="2000" className='my-20 text-center  '>
             <div className="card  bg-base-100 shadow-xl mx-auto ">
                 <div className="card-body">
                     <p className='text-3xl font-bold'>Contact Me</p>

@@ -6,7 +6,8 @@ import useTitle from '../../hooks/UseTitle';
 const About = () => {
     useTitle('About')
     return (
-        <div>
+        <div data-aos="fade-up"
+            data-aos-duration="3000">
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src={a2} className="max-w-sm rounded-lg shadow-2xl" />
